@@ -1,1 +1,12 @@
 remote_theme: just-the-docs/just-the-docs
+gh_edit_link: true
+gh_edit_link_text: "Edit and improve this content on GitHub"
+gh_edit_repository: "https://github.com/TylerMS887/Aptfile"
+gh_edit_branch: "main"
+gh_edit_view_mode: "edit"
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub":
+    - "https://github.com/TylerMS887/Aptfile"
+
+aux_links_new_tab: false
