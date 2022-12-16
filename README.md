@@ -43,7 +43,7 @@ python3 = 3.9
 cython3 = "latest"
 ```
 
-This is not a full list of Aptfile data values. See [the guidelines](https://tylerms887.github.io/aptfile)
+This is not a full list of Aptfile data values. See [the guidelines](https://tylerms887.github.io/Aptfile)
 for a (mostly) complete list.
 
 ## Is this an official Debian project?
