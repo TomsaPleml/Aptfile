@@ -6,6 +6,12 @@
   .main-content {
     max-width: auto;
     margin: 1em;
+    padding: 0px;
+  }
+  .main-content ::after {
+    content: "From the Aptfile documentation. Licensed under GFDL 1.3, see https://github.com/TylerMS887/Aptfile to get source code for both documentation and the software.";
+  }
+  * {
     font-family: serif;
   }
 }
