@@ -45,3 +45,9 @@ cython3 = "latest"
 
 This is not a full list of Aptfile data values. See [the guidelines](https://tylerms887.github.io/aptfile)
 for a (mostly) complete list.
+
+## Is this an official Debian project?
+
+No. However, it's a fairly new project and could get adopted by the Debian Project one day, and
+be used as a Debian packaging standard, as Aptfile gets better and better. **Do not confuse Aptfile with
+the `apt-file` utility, suddenly with the same name.**
