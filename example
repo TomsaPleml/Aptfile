@@ -1,0 +1,21 @@
+# Aptfile for hello-world
+
+[aptfile]
+# Main Aptfile data.
+target = 1.0
+
+[humanfriendly.info]
+# This is designed to be read by appstores. Without it, you should NOT list your app on Linux
+# app stores, and you should NOT recommend your app to non-developers. It's called "humanfriendly"
+# because plain "package names" are made for experienced users and even "robots".
+name = "Hello World"
+description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+version = "1.0"
+
+[apt.dependencies]
+# dependencies is freeform. Any package can go in as a value. You can define just the major number,
+# the major and minor number, or even all 3 numbers (major, minor, and patch). It is recommended to
+# use the major and minor number. This example demonstrates requiring Python 3.9 or newer to run the
+# program, including Cython. Written in pip format or "latest".
+python3 = 3.9
+cython3 = "latest"
