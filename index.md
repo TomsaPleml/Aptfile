@@ -2,8 +2,7 @@
 title: What is an Aptfile?
 ---
 
-Aptfile is an exit from dependency hell. It follows the DID structure, which is an order of
-steps to do when installing Debian dependencies. Aptfile can also solve issues on other APT-based
+Aptfile is an exit from dependency hell. Aptfile can also solve issues on other APT-based
 OSes, e.g. Ubuntu, Kali, Mint, and others.
 
 Also, GUI appstores don't understand APT, so Aptfiles can also contain app information including
