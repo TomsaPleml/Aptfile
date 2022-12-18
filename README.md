@@ -2,7 +2,7 @@
 
 An Aptfile is a file specifying Debian package requirements for a whole single project.
 It works by looking at the Aptfile, downloading the packages, installing them, and then
-installing dependenices. This process is otherwise known as "DID".
+installing dependencies.
 
 ## Motivation
 
