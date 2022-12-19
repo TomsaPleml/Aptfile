@@ -35,3 +35,9 @@ cython3 = "latest"
 
 Not all of the Aptfile language is shown in this example. Read these guidelines for a complete
 list.
+
+## How to create an Aptfile
+
+Aptfiles are named as either `Aptfile` or `Aptfile.toml`. Keep in mind that Aptfiles should not be placed
+in a subfolder, or else the Aptfile will not be recgonized. The name is case-insensitive - use any type
+of capitalization you want - UPPERCASE, lowercase, even *DiFfErReNtCaSe*...
