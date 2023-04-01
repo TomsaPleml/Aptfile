@@ -38,6 +38,7 @@ extensions = [
   "myst_parser",
   "sphinx_pyscript",
   "sphinx_multi_theme.multi_theme",
+  'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -56,7 +57,7 @@ exclude_patterns = []
 #
 html_theme = MultiTheme(
     [
-        Theme("furo", "Furo"),
+        Theme("sphinx_rtd_theme", "Default"),
         Theme("classic", "Classic"),
     ]
 )
