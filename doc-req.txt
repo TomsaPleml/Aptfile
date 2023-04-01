@@ -3,3 +3,4 @@ sphinx-inline-tabs
 sphinx-copybutton
 myst-parser
 sphinx-pyscript
+sphinx-multi-theme
