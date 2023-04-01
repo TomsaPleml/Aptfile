@@ -4,3 +4,4 @@ sphinx-copybutton
 myst-parser
 sphinx-pyscript
 sphinx-multi-theme
+sphinx-rtd-theme
