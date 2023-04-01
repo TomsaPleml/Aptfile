@@ -1,6 +1,4 @@
----
-title: What is an Aptfile?
----
+# What is an Aptfile?
 
 Aptfile is an exit from dependency hell. Aptfile can also solve issues on other APT-based
 OSes, e.g. Ubuntu, Kali, Mint, and others.
