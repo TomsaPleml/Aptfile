@@ -35,6 +35,7 @@ extensions = [
   "sphinx_design",
   "sphinx_copybutton",
   "myst_parser",
+  "sphinx_pyscript",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
