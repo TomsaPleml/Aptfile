@@ -28,11 +28,9 @@ If your Aptfile fails to be parsed by the installer then please
 
 Provide information about this app, then check "Review" to see your Aptfile.
 
-<!--Prog Info-->
 ```{tab} Program Information
 Program Information test page
 ```
-<!--Other Packs-->
 ```{tab} Other Packages
 **Dependencies**
 
