@@ -46,7 +46,6 @@ of capitalization you want - UPPERCASE, lowercase, even *DiFfErReNtCaSe*...
 :caption: Contents:
 
 index
-fileinfo
 ```
 ```{multi-theme-toctree}
 :caption: Themes
