@@ -40,6 +40,14 @@ Aptfiles are named as either `Aptfile` or `Aptfile.toml`. Keep in mind that Aptf
 in a subfolder, or else the Aptfile will not be recgonized. The name is case-insensitive - use any type
 of capitalization you want - UPPERCASE, lowercase, even *DiFfErReNtCaSe*...
 
+```{toctree}
+:hidden:
+:maxdepth: 1
+:caption: Contents:
+
+index
+fileinfo
+```
 ```{multi-theme-toctree}
 :caption: Themes
 ```
