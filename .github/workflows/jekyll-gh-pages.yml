@@ -13,7 +13,7 @@ jobs:
     - name: Install nox package
       run: pip3 install nox
     - name: Install Sphinx tab/design extension
-      run: pip3 install sphinx-inline-tabs sphinx-design myst-parser
+      run: pip3 install sphinx-inline-tabs sphinx-design myst-parser sphynix-copycode
     - name: Install theme
       run: pip3 install furo
     - name: Build Sphinx docs
