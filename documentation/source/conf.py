@@ -41,6 +41,11 @@ extensions = [
   "sphinx_multi_theme.multi_theme",
   'sphinx_rtd_theme',
 ]
+myst_enable_extensions = [
+    "colon_fence",
+    "html_admonition",
+    "linkify",
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
