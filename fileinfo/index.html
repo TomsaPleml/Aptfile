@@ -53,12 +53,6 @@
               <!-- Local TOC -->
               <div class="local-toc"><ul>
 <li><a class="reference internal" href="#">Aptfile info</a></li>
-<li><a class="reference internal" href="#main-aptfile-data">Main Aptfile data.</a></li>
-<li><a class="reference internal" href="#this-is-designed-to-be-read-by-appstores-without-it-you-should-not-list-your-app-on-linux">This is designed to be read by appstores. Without it, you should NOT list your app on Linux</a></li>
-<li><a class="reference internal" href="#app-stores-and-you-should-not-recommend-your-app-to-non-developers-it-s-called-humanfriendly">app stores, and you should NOT recommend your app to non-developers. It’s called “humanfriendly”</a></li>
-<li><a class="reference internal" href="#because-plain-package-names-are-made-for-experienced-users-and-even-robots">because plain “package names” are made for experienced users and even “robots”.</a></li>
-<li><a class="reference internal" href="#an-array-of-dependent-packages">An array of dependent packages.</a></li>
-<li><a class="reference internal" href="#recommended-packages">Recommended packages.</a></li>
 </ul>
 </div>
         </div>
@@ -91,35 +85,7 @@
 It is compatible with the latest version of the Aptfile specification.</p>
 <form method="post">
     <label for="input_text" style="display: block">Write or paste an Aptfile:</label>
-    <textarea id="input_text" name="input_text" style="width: 90%">
-# Aptfile for hello-world
-<p>[aptfile]</p>
-</section>
-<section id="main-aptfile-data">
-<h1>Main Aptfile data.<a class="headerlink" href="#main-aptfile-data" title="Permalink to this heading"></a></h1>
-<p>target = 1.0</p>
-<p>[humanfriendly.info]</p>
-</section>
-<section id="this-is-designed-to-be-read-by-appstores-without-it-you-should-not-list-your-app-on-linux">
-<h1>This is designed to be read by appstores. Without it, you should NOT list your app on Linux<a class="headerlink" href="#this-is-designed-to-be-read-by-appstores-without-it-you-should-not-list-your-app-on-linux" title="Permalink to this heading"></a></h1>
-</section>
-<section id="app-stores-and-you-should-not-recommend-your-app-to-non-developers-it-s-called-humanfriendly">
-<h1>app stores, and you should NOT recommend your app to non-developers. It’s called “humanfriendly”<a class="headerlink" href="#app-stores-and-you-should-not-recommend-your-app-to-non-developers-it-s-called-humanfriendly" title="Permalink to this heading"></a></h1>
-</section>
-<section id="because-plain-package-names-are-made-for-experienced-users-and-even-robots">
-<h1>because plain “package names” are made for experienced users and even “robots”.<a class="headerlink" href="#because-plain-package-names-are-made-for-experienced-users-and-even-robots" title="Permalink to this heading"></a></h1>
-<p>name = “Hello World”
-description = “Lorem ipsum dolor sit amet, consectetur adipiscing elit.”
-version = “1.0”</p>
-<p>[apt.dependencies]</p>
-</section>
-<section id="an-array-of-dependent-packages">
-<h1>An array of dependent packages.<a class="headerlink" href="#an-array-of-dependent-packages" title="Permalink to this heading"></a></h1>
-<p>depends = [“python3”, “python3-pip”]</p>
-</section>
-<section id="recommended-packages">
-<h1>Recommended packages.<a class="headerlink" href="#recommended-packages" title="Permalink to this heading"></a></h1>
-<p>recommends = [“python3-tk”]</textarea></p>
+    <textarea id="input_text" name="input_text" style="width: 90%"></textarea>
 </form>
 </section>
 <py-config type="json">
