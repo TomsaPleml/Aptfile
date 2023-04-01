@@ -1,0 +1,5 @@
+sphinx-design
+sphinx-inline-tabs
+sphinx-copybutton
+myst-parser
+sphinx-pyscript
