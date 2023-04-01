@@ -5,3 +5,4 @@ myst-parser
 sphinx-pyscript
 sphinx-multi-theme
 sphinx-rtd-theme
+linkify-it-py
