@@ -33,7 +33,7 @@ release = 'main'
 extensions = [
   "sphinx_inline_tabs",
   "sphinx_design",
-  "sphinx_copycode",
+  "sphinx_copybutton",
   "myst_parser",
 ]
 
