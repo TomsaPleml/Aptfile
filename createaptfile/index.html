@@ -93,13 +93,18 @@ algorithm doesn’t always generate Aptfiles as a human would write them.
 </div>
 <div class="tab-set docutils">
 <input checked="True" class="tab-input" id="tab-set--1-input--1" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--1">Edit</label><div class="tab-content docutils">
+<p>Provide information about this app, then check “Review” to see your Aptfile.</p>
+<!--Prog Info-->
 <div class="tab-set docutils">
 <input checked="True" class="tab-input" id="tab-set--0-input--1" name="tab-set--0" type="radio"><label class="tab-label" for="tab-set--0-input--1">Program Information</label><div class="tab-content docutils">
 <p>Program Information test page</p>
 </div>
 </div>
 </div>
-<input class="tab-input" id="tab-set--1-input--2" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--2">Other Packages</label><div class="tab-content docutils">
+</div>
+<!--Other Packs-->
+<div class="tab-set docutils">
+<input checked="True" class="tab-input" id="tab-set--2-input--1" name="tab-set--2" type="radio"><label class="tab-label" for="tab-set--2-input--1">Other Packages</label><div class="tab-content docutils">
 <p><strong>Dependencies</strong></p>
 <p>Your dependencies can be from OS repositories or the <a class="reference external" href="https://github.com/TylerMS887/aptfile-repo">Aptfile repository</a>.</p>
 <p><strong>Recommended Packages</strong></p>
@@ -108,6 +113,7 @@ algorithm doesn’t always generate Aptfiles as a human would write them.
 <p><code class="docutils literal notranslate"><span class="pre">aptfile</span></code> will provide information about these packages before installation but will not ask if the user wants to install them.</p>
 </div>
 </div>
+<!-- Making sure it doesn't glitch -->
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{tab} Review
 This Aptfile contains all your application information, and even dependencies.
 
