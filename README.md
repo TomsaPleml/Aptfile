@@ -8,7 +8,7 @@ installing dependencies.
 
 APT is dependency hell. Dependency hell is when one of the dependencies are outside release
 cycle. This can break apps, especially when they get older and older while dependencies get
-newer and newer while causing breaking changes. Aptfiles install every dependencies with
+newer and newer while causing breaking changes. Aptfiles install every dependency with
 one command, while following release cycle.
 
 Also, APT packages are harder to be used by GUI app stores, like GNOME Software and KDE
