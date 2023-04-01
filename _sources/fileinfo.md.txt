@@ -18,3 +18,13 @@ It is compatible with the latest version of the Aptfile specification.
     <label for="input_text" style="display: block">Write or paste an Aptfile:</label>
     <textarea id="input_text" name="input_text" style="width: 90%"></textarea>
 </form>
+
+```{tab} App Store
+Appstore
+```
+```{tab} Dependencies
+Dependencies
+```
+```{tab} Compatibility
+Compatibility
+```
