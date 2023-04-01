@@ -12,10 +12,8 @@ jobs:
       run: sudo apt-get update && sudo apt-get install -y python3-sphinx
     - name: Install nox package
       run: pip3 install nox
-    - name: Install Sphinx tab/design extension
+    - name: Install Sphinx extensions
       run: pip3 install -r doc-req.txt
-    - name: Install theme
-      run: pip3 install furo
     - name: Build Sphinx docs
       run: nox -s docs
     - name: Upload artifact
