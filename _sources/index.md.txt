@@ -1,3 +1,7 @@
+```{multi-theme-toctree}
+:caption: Themes
+```
+
 # What is an Aptfile?
 
 Aptfile is an exit from dependency hell. Aptfile can also solve issues on other APT-based
