@@ -91,8 +91,6 @@ algorithm doesn’t always generate Aptfiles as a human would write them.
 <p>If your Aptfile fails to be parsed by the installer then please
 <a class="reference external" href="https://github.com/TylerMS887/Aptfile/issues/new/choose">report an issue</a>.</p>
 </div>
-<div class="tab-set docutils">
-<input checked="True" class="tab-input" id="tab-set--1-input--1" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--1">Edit</label><div class="tab-content docutils">
 <p>Provide information about this app, then check “Review” to see your Aptfile.</p>
 <!--Prog Info-->
 <div class="tab-set docutils">
@@ -100,11 +98,9 @@ algorithm doesn’t always generate Aptfiles as a human would write them.
 <p>Program Information test page</p>
 </div>
 </div>
-</div>
-</div>
 <!--Other Packs-->
 <div class="tab-set docutils">
-<input checked="True" class="tab-input" id="tab-set--2-input--1" name="tab-set--2" type="radio"><label class="tab-label" for="tab-set--2-input--1">Other Packages</label><div class="tab-content docutils">
+<input checked="True" class="tab-input" id="tab-set--1-input--1" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--1">Other Packages</label><div class="tab-content docutils">
 <p><strong>Dependencies</strong></p>
 <p>Your dependencies can be from OS repositories or the <a class="reference external" href="https://github.com/TylerMS887/aptfile-repo">Aptfile repository</a>.</p>
 <p><strong>Recommended Packages</strong></p>
@@ -112,13 +108,10 @@ algorithm doesn’t always generate Aptfiles as a human would write them.
 <p><strong>Suggested Packages</strong></p>
 <p><code class="docutils literal notranslate"><span class="pre">aptfile</span></code> will provide information about these packages before installation but will not ask if the user wants to install them.</p>
 </div>
+<input class="tab-input" id="tab-set--1-input--2" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--2">Review</label><div class="tab-content docutils">
+<p>This Aptfile contains all your application information, and even dependencies.</p>
+<p><strong>The algorithm can make corrupted Aptfiles, so please carefully review the Aptfile and validate it with a TOML validator.</strong></p>
 </div>
-<!-- Making sure it doesn't glitch -->
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{tab} Review
-This Aptfile contains all your application information, and even dependencies.
-
-**The algorithm can make corrupted Aptfiles, so please carefully review the Aptfile and validate it with a TOML validator.**
-</pre></div>
 </div>
 </section>
 <py-config type="json">
