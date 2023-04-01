@@ -1,7 +1,3 @@
-```{multi-theme-toctree}
-:caption: Themes
-```
-
 # What is an Aptfile?
 
 Aptfile is an exit from dependency hell. Aptfile can also solve issues on other APT-based
@@ -43,3 +39,7 @@ list.
 Aptfiles are named as either `Aptfile` or `Aptfile.toml`. Keep in mind that Aptfiles should not be placed
 in a subfolder, or else the Aptfile will not be recgonized. The name is case-insensitive - use any type
 of capitalization you want - UPPERCASE, lowercase, even *DiFfErReNtCaSe*...
+
+```{multi-theme-toctree}
+:caption: Themes
+```
