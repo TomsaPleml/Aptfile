@@ -1,7 +1,7 @@
 ---
 py-config:
   splashscreen:
-    autoclose: false
+    enabled: false
   packages:
   - toml
 ---
@@ -13,12 +13,12 @@ It is compatible with the latest version of the Aptfile specification.
 ```{py-script}
 :file: aptfile_describer.py
 ```
-
+```{tab} Machine-readable
 <form method="post">
-    <label for="input_text" style="display: block">Write or paste an Aptfile:</label>
-    <textarea id="input_text" name="input_text" style="width: 90%"></textarea>
+    <textarea id="input_text" name="input_text" style="width: 90%;"></textarea>
 </form>
-
+```
+```{tab} Human-readable
 ```{tab} App Store
 Appstore
 ```
@@ -27,4 +27,8 @@ Dependencies
 ```
 ```{tab} Compatibility
 Compatibility
+```
+```
+```{tab} Warnings
+Warnings
 ```

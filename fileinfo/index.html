@@ -82,26 +82,35 @@
 <h1>Aptfile to writing<a class="headerlink" href="#aptfile-to-writing" title="Permalink to this heading"></a></h1>
 <p>This utility lets you show information about an Aptfile in a human-readable format.
 It is compatible with the latest version of the Aptfile specification.</p>
+<div class="tab-set docutils">
+<input checked="True" class="tab-input" id="tab-set--1-input--1" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--1">Machine-readable</label><div class="tab-content docutils">
 <form method="post">
-    <label for="input_text" style="display: block">Write or paste an Aptfile:</label>
-    <textarea id="input_text" name="input_text" style="width: 90%"></textarea>
+    <textarea id="input_text" name="input_text" style="width: 90%;"></textarea>
 </form>
+</div>
+<input class="tab-input" id="tab-set--1-input--2" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--2">Human-readable</label><div class="tab-content docutils">
 <div class="tab-set docutils">
 <input checked="True" class="tab-input" id="tab-set--0-input--1" name="tab-set--0" type="radio"><label class="tab-label" for="tab-set--0-input--1">App Store</label><div class="tab-content docutils">
 <p>Appstore</p>
 </div>
-<input class="tab-input" id="tab-set--0-input--2" name="tab-set--0" type="radio"><label class="tab-label" for="tab-set--0-input--2">Dependencies</label><div class="tab-content docutils">
+</div>
+</div>
+<input class="tab-input" id="tab-set--1-input--3" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--3">Dependencies</label><div class="tab-content docutils">
 <p>Dependencies</p>
 </div>
-<input class="tab-input" id="tab-set--0-input--3" name="tab-set--0" type="radio"><label class="tab-label" for="tab-set--0-input--3">Compatibility</label><div class="tab-content docutils">
+<input class="tab-input" id="tab-set--1-input--4" name="tab-set--1" type="radio"><label class="tab-label" for="tab-set--1-input--4">Compatibility</label><div class="tab-content docutils">
 <p>Compatibility</p>
 </div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{tab} Warnings
+Warnings
+</pre></div>
 </div>
 </section>
 <py-config type="json">
 {
   "splashscreen": {
-    "autoclose": false
+    "enabled": false
   },
   "packages": [
     "toml"
