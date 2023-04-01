@@ -1,7 +1,7 @@
 ---
 py-config:
   splashscreen:
-    enabled: false
+    autoclose: true
   packages:
   - toml
 ---
