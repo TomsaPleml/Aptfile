@@ -27,9 +27,12 @@ If your Aptfile fails to be parsed by the installer then please
 ```
 
 ```{tab} Edit
+Provide information about this app, then check "Review" to see your Aptfile.
+<!--Prog Info-->
 ```{tab} Program Information
 Program Information test page
 ```
+<!--Other Packs-->
 ```{tab} Other Packages
 **Dependencies**
 
@@ -43,6 +46,7 @@ Your dependencies can be from OS repositories or the [Aptfile repository](https:
 
 `aptfile` will provide information about these packages before installation but will not ask if the user wants to install them.
 ```
+<!-- Making sure it doesn't glitch -->
 ```
 ```{tab} Review
 This Aptfile contains all your application information, and even dependencies.
