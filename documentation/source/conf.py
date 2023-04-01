@@ -24,6 +24,7 @@ author = 'TylerMS887'
 
 # The full version, including alpha/beta/rc tags
 release = 'main'
+master_doc = "index"
 
 
 # -- General configuration ---------------------------------------------------
