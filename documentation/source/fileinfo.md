@@ -1,12 +1,12 @@
 ---
 py-config:
   splashscreen:
-    autoclose: true
+    autoclose: false
   packages:
   - toml
 ---
 
-# Aptfile info
+# Aptfile to writing
 This utility lets you show information about an Aptfile in a human-readable format.
 It is compatible with the latest version of the Aptfile specification.
 
