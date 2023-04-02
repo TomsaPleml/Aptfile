@@ -13,7 +13,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from sphinx_multi_theme.theme import MultiTheme, Theme
 
 
 # -- Project information -----------------------------------------------------
