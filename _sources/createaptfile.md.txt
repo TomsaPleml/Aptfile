@@ -26,8 +26,9 @@ If your Aptfile fails to be parsed by the installer then please
 :file: createui.py
 ```
 
-Provide information about this app, then check "Review" to see your Aptfile.
+::::::::{grid} 1 1 2 2
 
+:::::::{grid-item}
 ```{tab} Program Information
 Program Information test page
 ```
@@ -44,9 +45,11 @@ Your dependencies can be from OS repositories or the [Aptfile repository](https:
 
 `aptfile` will provide information about these packages before installation but will not ask if the user wants to install them.
 ```
+:::::::
 
-:::{dropdown} Review
-This Aptfile contains all your application information, and even dependencies.
-
-**The algorithm can make corrupted Aptfiles, so please carefully review the Aptfile and validate it with a TOML validator.**
-:::
+:::::::{grid-item}
+*aptfile 0.1*
+```toml
+[test]
+```
+:::::::
