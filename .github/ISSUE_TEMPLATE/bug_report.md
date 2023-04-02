@@ -12,8 +12,9 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Run `aptfile install foobar.json`
-4. See error
+1. Clone and `cd` to `some git repository`
+2. Run `aptfile install`
+3. See error
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
