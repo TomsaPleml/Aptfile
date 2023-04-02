@@ -38,8 +38,7 @@ extensions = [
   "sphinx_copybutton",
   "myst_parser",
   "sphinx_pyscript",
-  "sphinx_multi_theme.multi_theme",
-  'sphinx_rtd_theme',
+  "sphinxawesome_theme",
 ]
 myst_enable_extensions = [
     "colon_fence",
@@ -61,12 +60,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = MultiTheme(
-    [
-        Theme("sphinx_rtd_theme", "Default"),
-        Theme("classic", "Classic"),
-    ]
-)
+html_theme = "sphinxawesome_theme"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
