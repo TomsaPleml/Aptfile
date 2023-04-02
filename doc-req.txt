@@ -4,4 +4,4 @@ sphinx-copybutton
 myst-parser
 sphinx-pyscript
 linkify-it-py
-sphinxawesome-theme
+sphinx-material
