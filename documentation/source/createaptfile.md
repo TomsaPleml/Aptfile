@@ -51,7 +51,7 @@ Your dependencies can be from OS repositories or the [Aptfile repository](https:
 :::::::{grid-item}
 **Result**
 :::{tab} Aptfile TOML
-<small>Using Aptfile <span id="aptfile-version"></span></small>
+<small><span id="aptfile-version">Aptfile is loading...</span></small>
 ```toml
 [test]
 ```
