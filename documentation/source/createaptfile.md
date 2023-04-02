@@ -29,7 +29,7 @@ If your Aptfile fails to be parsed by the installer then please
 ::::::::{grid} 1 1 2 2
 
 :::::::{grid-item}
-**Information**
+<center>**Information**</center>
 ```{tab} Program Information
 Program Information test page
 ```
@@ -49,15 +49,13 @@ Your dependencies can be from OS repositories or the [Aptfile repository](https:
 :::::::
 
 :::::::{grid-item}
-**Result** <small><span id="aptfile-version">Using Aptfile ...</span></small>
+<center>**Result** <small><span id="aptfile-version">Using Aptfile ...</span></small></center>
 :::{tab} Aptfile TOML
-```toml
-[test]
-```
+<span id="toml"></span>
 :::
 :::{tab} Summarization
-Foobar, placeholder
-
 <small>Powered by [`fileinfo`](fileinfo)</small>
+
+Foobar, placeholder
 :::
 :::::::
