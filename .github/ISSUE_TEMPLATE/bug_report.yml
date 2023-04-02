@@ -1,9 +1,8 @@
 name: Bug report
 description: "File a bug report"
-title: ''
 labels: bug
 assignees: TylerMS887
 body:
 - type: markdown
   attributes:
-    value: " "
+    value: "‎ ‎ ‎ ‎ "
