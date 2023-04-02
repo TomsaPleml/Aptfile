@@ -51,14 +51,14 @@ Your dependencies can be from OS repositories or the [Aptfile repository](https:
 :::::::{grid-item}
 **Result**
 :::{tab} Aptfile TOML
-*aptfile 0.1*
+<small>Using Aptfile <span id="aptfile-version"></span></small>
 ```toml
 [test]
 ```
 :::
 :::{tab} Summarization
-*aptfile [fileinfo](fileinfo) 0.1*
-
 Foobar, placeholder
+
+<small>Powered by [`fileinfo`](fileinfo)</small>
 :::
 :::::::
