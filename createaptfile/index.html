@@ -207,6 +207,7 @@
             
   <section id="create-an-aptfile">
 <h1 id="createaptfile--page-root">Create an Aptfile<a class="headerlink" href="#createaptfile--page-root" title="Permalink to this heading">¶</a></h1>
+<p><span id="aptfile-version">Using Aptfile …</span></p>
 <p>This utility allows you to create Aptfiles by providing basic information about your app
 and dependencies.</p>
 <div class="admonition important">
@@ -228,30 +229,31 @@ version_label.textContent = f"Using Aptfile {version}"
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column docutils">
-<center>**Information**</center>
-```{tab} Program Information
-Program Information test page
-```
-```{tab} Other Packages
-**Dependencies**
+<p><strong>Information</strong></p>
+<div class="tab-set docutils">
+<input checked="True" class="tab-input" id="tab-set--0-input--1" name="tab-set--0" type="radio"/><label class="tab-label" for="tab-set--0-input--1">Program Information</label><div class="tab-content docutils">
+<p>Program Information test page</p>
+</div>
+<input class="tab-input" id="tab-set--0-input--2" name="tab-set--0" type="radio"/><label class="tab-label" for="tab-set--0-input--2">Other Packages</label><div class="tab-content docutils">
+<p><strong>Dependencies</strong></p>
 <p>Your dependencies can be from OS repositories or the <a class="reference external" href="https://github.com/TylerMS887/aptfile-repo">Aptfile repository</a>.</p>
 <p><strong>Recommended Packages</strong></p>
 <p><code class="docutils literal notranslate"><span class="pre">aptfile</span></code> will provide information about these packages before installation and ask if the user wants to install them.</p>
 <p><strong>Suggested Packages</strong></p>
 <p><code class="docutils literal notranslate"><span class="pre">aptfile</span></code> will provide information about these packages before installation but will not ask if the user wants to install them.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-</pre></div>
+</div>
 </div>
 </div>
 <div class="sd-col sd-d-flex-column docutils">
-<center>**Result** <small><span id="aptfile-version">Using Aptfile ...</span></small></center>
-:::{tab} Aptfile TOML
-<span id="toml"></span>
-:::
-:::{tab} Summarization
-<small>Powered by [`fileinfo`](fileinfo)</small>
+<p><strong>Result</strong></p>
+<div class="tab-set docutils">
+<input checked="True" class="tab-input" id="tab-set--1-input--1" name="tab-set--1" type="radio"/><label class="tab-label" for="tab-set--1-input--1">Aptfile TOML</label><div class="tab-content docutils">
+<p><span id="toml"></span></p>
+</div>
+<input class="tab-input" id="tab-set--1-input--2" name="tab-set--1" type="radio"/><label class="tab-label" for="tab-set--1-input--2">Summarization</label><div class="tab-content docutils">
+<p><small>Powered by <a class="reference internal" href="../fileinfo/"><span class="doc std std-doc"><code class="docutils literal notranslate"><span class="pre">fileinfo</span></code></span></a></small></p>
 <p>Foobar, placeholder</p>
-<div class="docutils">
+</div>
 </div>
 </div>
 </div>
