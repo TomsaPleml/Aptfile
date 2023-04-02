@@ -51,7 +51,7 @@ Your dependencies can be from OS repositories or the [Aptfile repository](https:
 :::::::{grid-item}
 **Result** <span id="aptfile-version"></span></small></center>
 :::{tab} Aptfile TOML
-<span id="toml"></span>
+<span id="toml"><i>Aptfile hasn't started yet</i></span>
 :::
 :::{tab} Summarization
 <small>Powered by [`fileinfo`](fileinfo)</small>
