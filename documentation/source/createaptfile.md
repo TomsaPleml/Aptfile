@@ -7,6 +7,7 @@ py-config:
 ---
 
 # Create an Aptfile
+<span id="aptfile-version">Using Aptfile ...</span></small></center>
 
 This utility allows you to create Aptfiles by providing basic information about your app
 and dependencies.
@@ -29,7 +30,7 @@ If your Aptfile fails to be parsed by the installer then please
 ::::::::{grid} 1 1 2 2
 
 :::::::{grid-item}
-<center>**Information**</center>
+**Information**
 ```{tab} Program Information
 Program Information test page
 ```
@@ -49,7 +50,7 @@ Your dependencies can be from OS repositories or the [Aptfile repository](https:
 :::::::
 
 :::::::{grid-item}
-<center>**Result** <small><span id="aptfile-version">Using Aptfile ...</span></small></center>
+**Result**
 :::{tab} Aptfile TOML
 <span id="toml"></span>
 :::
